@@ -23,6 +23,16 @@ Clean up unused volumes, networks, and services from your compose files.
 
 ---
 
+## New in v2.0
+
+- **Configs/secrets detection** — find unused configs and secrets definitions
+- **Extension detection** — find unused `x-` extension keys
+- **Per-profile reports** — see what each profile adds
+- **Keep/ignore patterns** — protect specific resources from being flagged
+- **Patch output** — generate patch files for removal operations
+
+---
+
 ## Example output
 
 ```
