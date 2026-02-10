@@ -1,0 +1,22 @@
+{
+  "name": "compose-prune",
+  "display_name": "Compose Prune",
+  "tagline": "Dead Compose Cleanup Tool",
+  "description": "Identify and remove unused volumes, networks, and services from Docker Compose files.",
+  "version": "1.0.0",
+  "price_usd": 19,
+  "gumroad_url": "https://ecent.gumroad.com/l/tfvsfyt",
+  "category": "utility",
+  "tags": ["docker", "compose", "cleanup", "maintenance", "optimization"],
+  "features": [
+    "Unused volume detection",
+    "Unused network detection",
+    "Orphaned service detection",
+    "Profile-aware analysis",
+    "Clean file generation"
+  ],
+  "platforms": ["darwin-amd64", "darwin-arm64", "linux-amd64", "linux-arm64", "windows-amd64"],
+  "repository": "https://github.com/ecent119/compose-prune",
+  "commands": ["analyze"],
+  "related": ["compose-flatten", "compose-diff", "dataclean", "stackgen"]
+}
