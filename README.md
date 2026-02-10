@@ -125,6 +125,18 @@ compose-prune analyze --strict
 
 ---
 
+## Common problems this solves
+
+- "find unused docker volumes"
+- "cleanup docker compose file"
+- "remove orphan networks docker"
+- "docker compose cleanup unused"
+- "check if volume still used docker"
+- "dead resources docker compose"
+- "clean up old docker compose definitions"
+
+---
+
 ## Get it
 
 👉 [Download on Gumroad](https://ecent.gumroad.com/l/tfvsfyt)
@@ -139,6 +151,10 @@ compose-prune analyze --strict
 | **[compose-flatten](https://github.com/ecent119/compose-flatten)** | Merge compose files |
 | **[compose-diff](https://github.com/ecent119/compose-diff)** | Compare compose files |
 | **[dataclean](https://github.com/ecent119/dataclean)** | Manage volume snapshots |
+
+---
+
+If this tool saved you time, consider starring the repo.
 
 ---
 
